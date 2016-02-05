@@ -40,50 +40,50 @@ window.onload=function(){
 	var x=1;
 var jiandao=document.getElementById("jiandao");
 jiandao.onclick=function(){
-	document.getElementById("my-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/bu.jpg";
+	document.getElementById("my-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/jiandao.jpg";
 	var computerResult=Math.random();
 	if(computerResult<0.33){
-		document.getElementById("computer-result").src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/jiandao.png";
+		document.getElementById("computer-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/jiandao.jpg";
 		document.getElementById("result").innerHTML="不输不赢，平局！"
 		}else if(computerResult<0.67){
-		    document.getElementById("computer-result").src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/shitou.png";
+		    document.getElementById("computer-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/shitou.jpg";
 			document.getElementById("result").innerHTML="很遗憾，您输了！";
 		    }else{
-				document.getElementById("computer-result").src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/bu.png";
+				document.getElementById("computer-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/bu.jpg";
 				document.getElementById("result").innerHTML="恭喜您，您赢了！";
 				document.getElementById("win").innerHTML="您已获胜"+(x++)+"局";
 			}
 	}
 	var shitou=document.getElementById("shitou");
 shitou.onclick=function(){
-	document.getElementById("my-result").src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/shitou.png";
+	document.getElementById("my-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/shitou.jpg";
 	var computerResult=Math.random();
 	if(computerResult<0.33){
-		document.getElementById("computer-result").src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/jiandao.png";
+		document.getElementById("computer-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/jiandao.jpg";
 		document.getElementById("result").innerHTML="恭喜您，您赢了！";
 		document.getElementById("win").innerHTML="您已获胜"+(x++)+"局";
 		}else if(computerResult<0.67){
-		    document.getElementById("computer-result").src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/shitou.png";
+		    document.getElementById("computer-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/shitou.jpg";
 			document.getElementById("result").innerHTML="不输不赢，平局！"
 		    }else{
-				document.getElementById("computer-result").src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/bu.png";
+				document.getElementById("computer-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/bu.jpg";
 				document.getElementById("result").innerHTML="很遗憾，您输了！";
 				
 			}
 	}
 	var bu=document.getElementById("bu");
 bu.onclick=function(){
-	document.getElementById("my-result").src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/bu.png";
+	document.getElementById("my-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/bu.jpg";
 	var computerResult=Math.random();
 	if(computerResult<0.33){
-		document.getElementById("computer-result").src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/jiandao.png";
+		document.getElementById("computer-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/jiandao.jpg";
 		document.getElementById("result").innerHTML="很遗憾，您输了！";
 		}else if(computerResult<0.67){
-		    document.getElementById("computer-result").src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/shitou.png";
+		    document.getElementById("computer-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/shitou.jpg";
 			document.getElementById("result").innerHTML="恭喜您，您赢了！";
 			document.getElementById("win").innerHTML="您已获胜"+(x++)+"局";
 		    }else{
-				document.getElementById("computer-result").src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/bu.png";
+				document.getElementById("computer-result").src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/bu.jpg";
 				document.getElementById("result").innerHTML="不输不赢，平局！";
 			}
 	}
@@ -96,9 +96,9 @@ bu.onclick=function(){
 <div class="all">
 <h1 style="margin-left:180px">出拳吧，少年！</h1>
 <div>
-<img id="jiandao" src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/bu.jpg"/>
-<img id="shitou" src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/bu.jpg"/>
-<img id="bu" src="https://raw.githubusercontent.com/wxf19951001/wxf2016/61dbc03d64b08aa45c746094013d2d9f808e0e24/bu.png"/>
+<img id="jiandao" src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/jiandao.jpg"/>
+<img id="shitou" src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/shitou.jpg"/>
+<img id="bu" src="https://raw.githubusercontent.com/jmf111/fingerGame/gh-pages/imgs/bu.jpg"/>
 </div>
 <div id="panduan">
 <p style="margin-left:60px;font-size:24px;font-weight:bold;font-family:'微软雅黑'">电脑</p>
